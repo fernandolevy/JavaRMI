@@ -14,6 +14,7 @@ public class CurriculoServantCallback extends UnicastRemoteObject implements Cur
 
 
     public void notifyCurriculo(CurriculoObject v) throws RemoteException {
+        //Retorna para o cliente o curriculo da area de seu interesse
         System.out.println("\n|---------------------------------------------------|");
         System.out.println("Curriculo de seu interesse");
         System.out.println("        nome_candidato: " + v.nome_candidato);

@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="83d76516-6b4d-4b67-a966-13327bb8ea43" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Client/Callback/NotifyCurriculo/NotifyCurriculoObject.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Client/Callback/NotifyVagaDeEmprego/NotifyVagaDeEmpregoObject.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Client/ClientCurriculo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Client/ClientCurriculo.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Client/ClientVagaDeEmprego.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Client/ClientVagaDeEmprego.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Client/CurriculoServer/CurriculoServant.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Client/CurriculoServer/CurriculoServant.class" afterDir="false" />
@@ -10,6 +12,11 @@
       <change beforePath="$PROJECT_DIR$/src/CurriculoServer/CurriculoServant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CurriculoServer/CurriculoServant.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/VagaDeEmpregoServer/VagaDeEmpregoServant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/VagaDeEmpregoServer/VagaDeEmpregoServant.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Server/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Server/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server/out/production/Server/Callback/NotifyCurriculo/CurriculoServantCallback.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Server/out/production/Server/Callback/NotifyCurriculo/CurriculoServantCallback.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server/out/production/Server/Callback/NotifyVagaDeEmprego/VagaDeEmpregoServantCallback.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Server/out/production/Server/Callback/NotifyVagaDeEmprego/VagaDeEmpregoServantCallback.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server/out/production/Server/Server.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Server/out/production/Server/Server.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server/src/CurriculoServer/CurriculoServant.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Server/src/CurriculoServer/CurriculoServant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server/src/VagaDeEmpregoServer/VagaDeEmpregoServant.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Server/src/VagaDeEmpregoServer/VagaDeEmpregoServant.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -103,7 +110,7 @@
       <workItem from="1571877443947" duration="4669000" />
       <workItem from="1571967186154" duration="1838000" />
       <workItem from="1571969444202" duration="525000" />
-      <workItem from="1572020919284" duration="3560000" />
+      <workItem from="1572020919284" duration="3817000" />
     </task>
     <servers />
   </component>

@@ -13,6 +13,7 @@ public class VagaDeEmpregoServantCallback extends UnicastRemoteObject implements
     }
 
     public void notifyVagaDeEmprego(VagaDeEmpregoObject v) throws RemoteException {
+        //Retorna para o cliente a vaga de emprego da area de seu interesse
         System.out.println("\n|---------------------------------------------------|");
         System.out.println("Vaga de Emprego de seu interesse");
         System.out.println("        nome_empresa: " + v.nome_empresa);
