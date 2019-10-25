@@ -6,6 +6,7 @@ import java.rmi.RemoteException;
 import java.rmi.server.UnicastRemoteObject;
 import java.util.Vector;
 
+//Esta classe e responsavel por implementar e servir os metodos decladaros na VagaDeEmpregoInterfaceCallback
 public class VagaDeEmpregoServantCallback extends UnicastRemoteObject implements VagaDeEmpregoInterfaceCallback {
     //	constructors
     public VagaDeEmpregoServantCallback() throws RemoteException {

@@ -1,12 +1,12 @@
 package CurriculoServer;
 
 import Callback.NotifyCurriculo.CurriculoInterfaceCallback;
-import Callback.NotifyCurriculo.NotifyCurriculoObject;
 
 import java.rmi.RemoteException;
 import java.rmi.server.UnicastRemoteObject;
 import java.util.Vector;
 
+//Esta classe e responsavel por implementar e servir os metodos decladaros na CurriculoInterface
 public class CurriculoServant extends UnicastRemoteObject implements CurriculoInterface {
     private Vector theList;
     private Vector interesseList;
@@ -34,9 +34,9 @@ public class CurriculoServant extends UnicastRemoteObject implements CurriculoIn
 
     public void verificaInteresseCurriculo(CurriculoObject v) throws RemoteException {
         for (int i = 0; i < interesseList.size(); i++) {
-            NotifyCurriculoObject g = (NotifyCurriculoObject) interesseList.elementAt(i);
+            String g = (String) interesseList.elementAt(i);
             CurriculoInterfaceCallback c = (CurriculoInterfaceCallback) interesseCallbackList.elementAt(i);
-            if (v.area_de_interesse.equals(g.area_de_interesse)) {
+            if (v.area_de_interesse.equals(g)) {
                 c.notifyCurriculo(v);
             }
         }
@@ -59,8 +59,8 @@ public class CurriculoServant extends UnicastRemoteObject implements CurriculoIn
     }
 
 
-    public void registraInteresseCurriculo(CurriculoInterfaceCallback callback, NotifyCurriculoObject c) throws RemoteException {
-        interesseList.addElement(c);
+    public void registraInteresseCurriculo(CurriculoInterfaceCallback callback, String area_de_interesse) throws RemoteException {
+        interesseList.addElement(area_de_interesse);
         interesseCallbackList.addElement(callback);
     }
 

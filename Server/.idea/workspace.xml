@@ -1,7 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e84d99ef-08ad-49b1-9cc4-3aebd6d1af4d" name="Default Changelist" comment="" />
+    <list default="true" id="e84d99ef-08ad-49b1-9cc4-3aebd6d1af4d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../Client/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Client/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Client/out/production/Client/Callback/NotifyCurriculo/CurriculoServantCallback.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/out/production/Client/Callback/NotifyCurriculo/CurriculoServantCallback.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Client/out/production/Client/Callback/NotifyVagaDeEmprego/VagaDeEmpregoServantCallback.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/out/production/Client/Callback/NotifyVagaDeEmprego/VagaDeEmpregoServantCallback.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Client/out/production/Client/ClientCurriculo.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/out/production/Client/ClientCurriculo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Client/out/production/Client/ClientVagaDeEmprego.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/out/production/Client/ClientVagaDeEmprego.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Client/out/production/Client/CurriculoServer/CurriculoInterface.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/out/production/Client/CurriculoServer/CurriculoInterface.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Client/out/production/Client/CurriculoServer/CurriculoObject.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/out/production/Client/CurriculoServer/CurriculoObject.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Client/out/production/Client/CurriculoServer/CurriculoServant.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/out/production/Client/CurriculoServer/CurriculoServant.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Client/out/production/Client/VagaDeEmpregoServer/VagaDeEmpregoInterface.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/out/production/Client/VagaDeEmpregoServer/VagaDeEmpregoInterface.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Client/out/production/Client/VagaDeEmpregoServer/VagaDeEmpregoObject.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/out/production/Client/VagaDeEmpregoServer/VagaDeEmpregoObject.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Client/out/production/Client/VagaDeEmpregoServer/VagaDeEmpregoServant.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/out/production/Client/VagaDeEmpregoServer/VagaDeEmpregoServant.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Client/src/Callback/NotifyCurriculo/CurriculoInterfaceCallback.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/src/Callback/NotifyCurriculo/CurriculoInterfaceCallback.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Client/src/Callback/NotifyCurriculo/CurriculoServantCallback.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/src/Callback/NotifyCurriculo/CurriculoServantCallback.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Client/src/Callback/NotifyCurriculo/NotifyCurriculoObject.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Client/src/Callback/NotifyVagaDeEmprego/NotifyVagaDeEmpregoObject.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Client/src/Callback/NotifyVagaDeEmprego/VagaDeEmpregoInterfaceCallback.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/src/Callback/NotifyVagaDeEmprego/VagaDeEmpregoInterfaceCallback.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Client/src/Callback/NotifyVagaDeEmprego/VagaDeEmpregoServantCallback.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/src/Callback/NotifyVagaDeEmprego/VagaDeEmpregoServantCallback.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Client/src/ClientCurriculo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/src/ClientCurriculo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Client/src/ClientVagaDeEmprego.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/src/ClientVagaDeEmprego.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Client/src/CurriculoServer/CurriculoInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/src/CurriculoServer/CurriculoInterface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Client/src/CurriculoServer/CurriculoObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/src/CurriculoServer/CurriculoObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Client/src/CurriculoServer/CurriculoServant.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/src/CurriculoServer/CurriculoServant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Client/src/VagaDeEmpregoServer/VagaDeEmpregoInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/src/VagaDeEmpregoServer/VagaDeEmpregoInterface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Client/src/VagaDeEmpregoServer/VagaDeEmpregoObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/src/VagaDeEmpregoServer/VagaDeEmpregoObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Client/src/VagaDeEmpregoServer/VagaDeEmpregoServant.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/src/VagaDeEmpregoServer/VagaDeEmpregoServant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Server/Callback/NotifyCurriculo/NotifyCurriculoObject.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Server/Callback/NotifyVagaDeEmprego/NotifyVagaDeEmpregoObject.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Server/CurriculoServer/CurriculoInterface.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Server/CurriculoServer/CurriculoInterface.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Server/CurriculoServer/CurriculoObject.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Server/CurriculoServer/CurriculoObject.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Server/CurriculoServer/CurriculoServant.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Server/CurriculoServer/CurriculoServant.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Server/VagaDeEmpregoServer/VagaDeEmpregoInterface.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Server/VagaDeEmpregoServer/VagaDeEmpregoInterface.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Server/VagaDeEmpregoServer/VagaDeEmpregoObject.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Server/VagaDeEmpregoServer/VagaDeEmpregoObject.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Server/VagaDeEmpregoServer/VagaDeEmpregoServant.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Server/VagaDeEmpregoServer/VagaDeEmpregoServant.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Callback/NotifyCurriculo/CurriculoInterfaceCallback.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Callback/NotifyCurriculo/CurriculoInterfaceCallback.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Callback/NotifyCurriculo/CurriculoServantCallback.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Callback/NotifyCurriculo/CurriculoServantCallback.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Callback/NotifyCurriculo/NotifyCurriculoObject.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Callback/NotifyVagaDeEmprego/NotifyVagaDeEmpregoObject.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Callback/NotifyVagaDeEmprego/VagaDeEmpregoInterfaceCallback.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Callback/NotifyVagaDeEmprego/VagaDeEmpregoInterfaceCallback.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Callback/NotifyVagaDeEmprego/VagaDeEmpregoServantCallback.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Callback/NotifyVagaDeEmprego/VagaDeEmpregoServantCallback.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CurriculoServer/CurriculoInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CurriculoServer/CurriculoInterface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CurriculoServer/CurriculoObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CurriculoServer/CurriculoObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CurriculoServer/CurriculoServant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CurriculoServer/CurriculoServant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Server.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/VagaDeEmpregoServer/VagaDeEmpregoInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/VagaDeEmpregoServer/VagaDeEmpregoInterface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/VagaDeEmpregoServer/VagaDeEmpregoObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/VagaDeEmpregoServer/VagaDeEmpregoObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/VagaDeEmpregoServer/VagaDeEmpregoServant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/VagaDeEmpregoServer/VagaDeEmpregoServant.java" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,8 +81,13 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="ProjectId" id="1SJBSctxphL6gPlM11TvFVwNqpE" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="ToolWindowTODO.ShowToolbar" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -96,10 +151,22 @@
       <workItem from="1571882937898" duration="32000" />
       <workItem from="1571966065002" duration="2694000" />
       <workItem from="1571969438791" duration="526000" />
+      <workItem from="1572020970056" duration="1769000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

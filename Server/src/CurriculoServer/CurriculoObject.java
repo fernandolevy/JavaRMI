@@ -2,6 +2,7 @@ package CurriculoServer;
 
 import java.io.Serializable;
 
+//Este objeto armazena os curriculos cadastrados
 public class CurriculoObject implements Serializable {
     public String area_de_interesse;
     public String salario_pretendido;

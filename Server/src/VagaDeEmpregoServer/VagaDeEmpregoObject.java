@@ -2,6 +2,7 @@ package VagaDeEmpregoServer;
 
 import java.io.Serializable;
 
+//Este objeto armazena as vagas de emprego cadastradas
 public class VagaDeEmpregoObject implements Serializable {
     public String area_da_vaga;
     public String salario_pago;

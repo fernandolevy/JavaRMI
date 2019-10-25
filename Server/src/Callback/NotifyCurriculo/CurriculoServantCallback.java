@@ -6,6 +6,7 @@ import CurriculoServer.CurriculoObject;
 import java.rmi.RemoteException;
 import java.rmi.server.UnicastRemoteObject;
 
+//Esta classe e responsavel por implementar e servir os metodos decladaros na CurriculoInterfaceCallback
 public class CurriculoServantCallback extends UnicastRemoteObject implements CurriculoInterfaceCallback {
     //	constructors
     public CurriculoServantCallback() throws RemoteException {

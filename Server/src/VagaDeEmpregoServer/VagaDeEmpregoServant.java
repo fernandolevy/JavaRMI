@@ -1,7 +1,6 @@
 package VagaDeEmpregoServer;
 
 
-import Callback.NotifyVagaDeEmprego.NotifyVagaDeEmpregoObject;
 import Callback.NotifyVagaDeEmprego.VagaDeEmpregoInterfaceCallback;
 import Callback.NotifyVagaDeEmprego.VagaDeEmpregoServantCallback;
 
@@ -9,6 +8,7 @@ import java.util.Vector;
 import java.rmi.RemoteException;
 import java.rmi.server.UnicastRemoteObject;
 
+//Esta classe e responsavel por implementar e servir os metodos decladaros na VagaDeEmpregoInterface
 public class VagaDeEmpregoServant extends UnicastRemoteObject implements VagaDeEmpregoInterface {
     private Vector theList;
     private Vector interesseList;
@@ -22,10 +22,11 @@ public class VagaDeEmpregoServant extends UnicastRemoteObject implements VagaDeE
 
 
     public void verificaInteresseVagaDeEmprego(VagaDeEmpregoObject v) throws RemoteException {
+        VagaDeEmpregoInterfaceCallback notify = new VagaDeEmpregoServantCallback();
         for (int i = 0; i < interesseList.size(); i++) {
-            NotifyVagaDeEmpregoObject g = (NotifyVagaDeEmpregoObject) interesseList.elementAt(i);
+            String g = (String) interesseList.elementAt(i);
             VagaDeEmpregoInterfaceCallback c = (VagaDeEmpregoInterfaceCallback) interesseCallbackList.elementAt(i);
-            if (v.area_da_vaga.equals(g.area_de_interesse)) {
+            if (v.area_da_vaga.equals(g)) {
                 c.notifyVagaDeEmprego(v);
             }
         }
@@ -59,12 +60,8 @@ public class VagaDeEmpregoServant extends UnicastRemoteObject implements VagaDeE
         return theList;
     }
 
-    public void registraInteresseVagaDeEmprego(VagaDeEmpregoInterfaceCallback callback, NotifyVagaDeEmpregoObject c) throws RemoteException {
-        System.out.println("\n\n|---------------------------------------------------|");
-        System.out.println("Registro de interesse na Vaga de Emprego");
-        System.out.println("        area_da_vaga: " + c.area_de_interesse);
-        System.out.println("|---------------------------------------------------|\n\n");
-        interesseList.addElement(c);
+    public void registraInteresseVagaDeEmprego(VagaDeEmpregoInterfaceCallback callback, String area_de_interesse) throws RemoteException {
+        interesseList.addElement(area_de_interesse);
         interesseCallbackList.addElement(callback);
     }
 
