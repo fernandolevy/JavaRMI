@@ -18,7 +18,7 @@ public class ClientCurriculo {
         Scanner options = new Scanner(System.in);  // Create a Scanner object
         String option = "0";
         //Loopim do menu
-        while (!option.equals("4")) {
+        while (!option.equals("5")) {
             System.out.println("Digite 1 para CADASTRAR Curriculo");
             System.out.println("Digite 2 para ALTERAR curriculo cadastrado");
             System.out.println("Digite 3 para CONSULTAR as vagas de emprego");
